@@ -1,0 +1,11 @@
+th {
+    cursor: pointer;
+}
+
+.asc:after {
+    content: ' (asc)' ;
+}
+
+.desc:after {
+    content: ' (desc)' ;
+}
