@@ -1,5 +1,13 @@
-th {
+tr {
     cursor: pointer;
+}
+
+thead th:hover {
+    background-color: lightgray;
+}
+
+tbody tr:hover {
+    background-color: lightgray;
 }
 
 .asc:after {
@@ -8,4 +16,22 @@ th {
 
 .desc:after {
     content: ' (desc)' ;
+}
+
+.pagination {
+    list-style: none;
+}
+
+.pagination li {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.pagination li:hover {
+    background-color: lightgray;
+}
+
+.active {
+    color: blue;
 }
